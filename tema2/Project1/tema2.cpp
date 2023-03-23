@@ -219,8 +219,8 @@ void Display4() {
     double pi = atan(1) * 4;
     double a = 0.2;
     //previn formarea unor triunghiuri
-    double xval = -0.3; 
-    double yval = 0.3;
+    double xval = -0.5; 
+    double yval = 0.5;
 
     glColor3f(1, 0.1, 0.1); // red
     glBegin(GL_POINTS);
@@ -261,6 +261,7 @@ void Display4() {
     {
         double x = a / (4 * cos(t) * cos(t) - 3);
         double y = (a * tan(t)) / (4 * cos(t) * cos(t) - 3);
+        std::cout << x << " " << y << std::endl;
         if (!triangle)
         {
             glVertex2f(x, y);
