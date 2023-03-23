@@ -967,11 +967,15 @@ void Display4() {
     glutBitmapCharacter(GLUT_BITMAP_9_BY_15, c[1]);
 
     glRasterPos2d(-1.0, -0.9);
-    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'c');
-    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'u');
-    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'r');
-    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'b');
     glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'a');
+    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'r');
+    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'r');
+    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'o');
+    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'w');
+    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'h');
+    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'e');
+    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'a');
+    glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'd');
     glutBitmapCharacter(GLUT_BITMAP_9_BY_15, ' ');
     glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'S');
     glutBitmapCharacter(GLUT_BITMAP_9_BY_15, 'i');
