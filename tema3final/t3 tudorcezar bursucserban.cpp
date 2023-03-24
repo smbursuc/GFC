@@ -293,12 +293,11 @@ public:
         }
         else
         {
-            lungime /= 1.2;
-            curbaSierpinski(lungime, nivel - 1, p, v, -angle);
+            curbaSierpinski(lungime / 2, nivel - 1, p, v, -angle);
             v.rotatie(angle);
-            curbaSierpinski(lungime, nivel - 1, p, v, angle);
+            curbaSierpinski(lungime / 2, nivel - 1, p, v, angle);
             v.rotatie(angle);
-            curbaSierpinski(lungime, nivel - 1, p, v, -angle);
+            curbaSierpinski(lungime / 2, nivel - 1, p, v, -angle);
         }
     }
 
@@ -952,7 +951,7 @@ void Display3()
 }
 void Display4() {
     CCurbaSierpinski ccs;
-    ccs.afisare(0.05, nivel);
+    ccs.afisare(1, nivel);
 
     char c[3];
     sprintf(c, "%2d", nivel);
