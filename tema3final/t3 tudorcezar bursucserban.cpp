@@ -913,7 +913,8 @@ void Display2() {
     nivel++;
 }
 void Display3()
-{
+{   double dim_cadran = 1.8;
+    draw_square(0, 0, dim_cadran);
     sierpinski_carpet(0, 0, 1.7, nivel);
 
     char c[3];
